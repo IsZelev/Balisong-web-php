@@ -1,0 +1,140 @@
+body
+{
+    background-image: url('Media/balisong_background.png');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+header
+{
+    position: sticky;
+    top: 0;
+}
+
+.text
+{
+    color:aliceblue;
+    font-family: "Syncopate", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#search {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+#searchBtn
+{
+    height: 40px;
+    width: 70px;
+    margin-top: 17px;
+}
+
+.buttonLinks
+{
+    border-radius: 20px;
+    size: 100px;
+    width:100px;
+}
+
+.diff1
+{
+    color:rgb(0, 0, 0);
+    background-color:rgb(128, 255, 0);
+}
+
+.diff2
+{
+    color:rgb(0, 0, 0);
+    background-color:rgb(255, 217, 0);
+}
+
+.diff3
+{
+    color:rgb(0, 0, 0);
+    background-color:rgb(255, 0, 0);
+}
+
+.buttonLinks
+{
+    
+    width: 250px;
+    border-radius: 20px;
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+#trickTitle
+{
+    font-size: 300%;
+    border-radius: 10px;
+    width: 100%;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0), 0 0 1em blue, 0 0 0.2em blue;
+    background-color: #0066ff0c;
+
+}
+
+video
+{
+    width: 100%;
+    border-radius: 20px;
+    border-color: aliceblue;
+    border-style: ridge;
+    box-shadow: 0px 8px 16px 0px rgb(182, 232, 255);
+}
+
+footer
+{
+    background-color: #0d6efd;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 8px 8px 8px 8px rgb(0, 0, 0);
+    width: 100%;
+    height: min-content;
+}
+
+#kpl
+{
+    width: 100px;
+    height: 30px;
+}
+
+.logo
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.ftElements
+{
+    padding: 2px;
+}
+
+.container
+{
+    flex: 1;
+}
+
+#navbarDropdown
+{
+    margin: auto;
+    margin-left: 4px;
+    margin-top: 12px;
+    width: 50%;
+    padding: 10px;
+}
