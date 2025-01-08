@@ -78,7 +78,7 @@ header
     text-align: center;
 }
 
-#trickTitle
+.title
 {
     font-size: 300%;
     border-radius: 10px;
