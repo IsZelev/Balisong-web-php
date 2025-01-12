@@ -6,4 +6,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Ottieni i dati del form
     $search = htmlspecialchars($_POST['search']);
 }
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    
+    $exp = /^[a-zA-Z-]*$@/g ;
+    $email = htmlspecialchars($_POST['email']);
+    
+    preg_match($email, $exp)
+    
+}
 ?>
