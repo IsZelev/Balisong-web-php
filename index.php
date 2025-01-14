@@ -1,17 +1,20 @@
 <?php
-// Verifica se il form è stato inviato
-//$_SERVER è una variabile "superglobale" che contiene info riguardo il server e la sessione sottoforma di
-// array chiave - valore
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Ottieni i dati del form
     $search = htmlspecialchars($_POST['search']);
 }
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
-    $exp = /^[a-zA-Z-]*$@/g ;
+    $exp = "/([A-Z])\w+@([A-Z])\w+.([A-Z])+\w/gi";
     $email = htmlspecialchars($_POST['email']);
     
-    preg_match($email, $exp)
+    if(preg_match($email, $exp) == 1)
+    {
+        //va avanti alla homepage
+    }else
+    {
+        //messaggio di errore nella text box
+    }
     
 }
 ?>
